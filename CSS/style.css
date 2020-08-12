@@ -1,0 +1,41 @@
+.header{
+    margin-top: 15px;
+}
+.header-icon span{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.logo-text{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.menu{
+    /* margin-top: 30px; */
+    /* position: fixed; */
+}
+.menu ul{
+    /* display: inline-block; */
+    list-style: none;
+}
+.menu ul li{
+    padding: 15px 30px;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.top-pic{
+    width: 100%;
+    height: 100%;
+}
+.top-pic img{
+   width: 100%;
+   height: 100%;
+}
+.about-pic img{
+    width: 50%;
+    float: right;
+}
