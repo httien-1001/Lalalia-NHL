@@ -1,13 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Tangerine;
+    src: url('../CSS/google-font/Tangerine/Tangerine-Bold.ttf');
+    font-weight: bold; font-size: normal;
+}
 .header{
     margin-top: 15px;
+    margin-bottom: 0px;
 }
 .header-icon span{
     padding-left: 5px;
     padding-right: 5px;
 }
 .logo-text{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-family: Tangerine;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 40px;
 }
 .menu{
     margin-top: 0px;
@@ -15,7 +27,7 @@
     display: inline-block;
     /* background-color: grey; */
     
-    padding-left: 450px;
+    margin: 0 auto;
     width: 100%;
 
 }
@@ -79,7 +91,9 @@
     color: black;
     text-align: left;
 }
-
+.test{
+    text-align: center;
+}
 .sticky {
     position: fixed;
     top: 0;
@@ -87,7 +101,6 @@
     width: 100%;
     color: black;
     background-color: #fffcf2;
-    padding-left: 450px;
     z-index: 1000;
   }
   .header-menu{
@@ -139,4 +152,79 @@
 }
 .work-border{
     border: 1px solid black;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.work-border img{
+    width: 100%;
+    transition: 1.5s;
+    height: 400px;
+}
+.work-border>img:hover{
+    transform: scale(1.5); 
+}
+.stuff-border{
+    margin-bottom: 30px;
+}
+.stuff-border img{
+    width: 100%;
+}
+.button{
+   text-align: center;
+}
+.btn-more{
+   color: black;
+   background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.img-border{
+    width: 100%;
+    height: unset;
+    overflow: hidden;
+}
+.form-header{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.form-header h3{
+    padding-bottom: 15px;
+}
+.form-group,.form-group-2{
+    padding-bottom: 10px;
+}
+.form-group input{
+    padding: 7px 5px;
+    font-size: 14px;
+}
+.form-group-2 input{
+    height: 50px;
+    padding: 7px 5px;
+    font-size: 14px;
+}
+.contact-right{
+    display: block;
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+.contact-right span{
+    display: block;
+}
+span.ti-mobile,.ti-location-pin,.ti-email{
+    font-size: 38px;
+    padding-top: 5px;
+}
+.footer{
+    margin-bottom: 45px;
+}
+.contact-item{
+    padding-left: 15px;
+}
+.contact-distance{
+    padding-top: 60px;
 }
