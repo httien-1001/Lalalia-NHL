@@ -11,13 +11,28 @@
     margin-top: 15px;
     margin-bottom: 0px;
 }
+.header h4{
+    padding-top: 10px
+}
+.header-icon{
+    font-size: 20px;
+
+}
+.header-icon a{
+    color: #000;
+    text-decoration: none;
+}
 .header-icon span{
-    padding-left: 5px;
+    padding-left: 10px;
     padding-right: 5px;
+    
+}
+.header-icon span:hover{
+    cursor: pointer;
 }
 .logo-text{
     font-family: Tangerine;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 15px;
     font-size: 40px;
 }
@@ -45,7 +60,10 @@
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
+}
+.menu ul li:hover a{
+    border-bottom: 1.5px solid #000;
 }
 .top-pic{
     /* width: 100%;
@@ -138,6 +156,7 @@
      background-color: black;
      color: white;
      width: max-content;
+     padding: 5px 7px;
 }
 .btn-hashtag{
     border: none;
@@ -146,9 +165,10 @@
      color: white;
      width: max-content;
      height: 35px;
-     padding: 5px 7px;
+     padding: 7px 15px;
      margin-top: 5px;
      margin-bottom: 5px;
+     font-size: 14px;
 }
 .work-border{
     border: 1px solid black;
